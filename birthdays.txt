@@ -2,8 +2,13 @@ Guillaume; guillaume.jambet@gmail.com; 1975-11-01
 Benjamin; benjamin.verdant@etu.univ-savoie.fr; 1999-06-27
 Hugo; hugo.bollon@gmail.com; 1999-12-31
 Hugo; hugo.hersemeule@etu.univ-smb.fr; 1994-05-04
+Martin; martin.folliet@etu.univ-savoie.fr; 1998-04-28
 Nils; nils.ruet@etu.univ-smb.fr; 2000-02-27
 Camille; camille.morand@etu.univ-smb.fr; 1999-07-09
 Nicolas; nicolas.commandeur@etu.univ-smb.fr; 1999-10-14
+<<<<<<< HEAD
 Rémi; remi.matrod@etu.univ-smb.fr; 2000-01-26
 Visar; visar.sylejmani@etu.univ-smb.fr; 2000-01-26
+=======
+Rémi; remi.matrod@etu.univ-smb.fr; 2000-01-26
+>>>>>>> d085d749b92abe77631d8435092a3e6a9398b598
