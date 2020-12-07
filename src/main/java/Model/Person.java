@@ -1,13 +1,13 @@
 package Model;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 public class Person {
     private String _name;
     private String _email;
-    private Date _birthDate;
+    private LocalDate _birthDate;
 
-    public Person(String name, String email, Date birthDate){
+    public Person(String name, String email, LocalDate birthDate){
         this._name = name;
         this._email = email;
         this._birthDate = birthDate;
@@ -29,11 +29,11 @@ public class Person {
         this._email = email;
     }
 
-    public Date getBirthDate() {
+    public LocalDate getBirthDate() {
         return _birthDate;
     }
 
-    public void setBirthDate(Date birthDate) {
+    public void setBirthDate(LocalDate birthDate) {
         this._birthDate = birthDate;
     }
 
@@ -42,7 +42,7 @@ public class Person {
         return "Person{" +
                 "_name='" + _name + '\'' +
                 ", _email='" + _email + '\'' +
-                ", _birthDate=" + _birthDate +
+                ", _birthDate=" + _birthDate.toString() +
                 '}';
     }
 }
