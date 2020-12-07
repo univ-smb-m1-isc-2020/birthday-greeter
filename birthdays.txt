@@ -1,4 +1,4 @@
 Guillaume; guillaume.jambet@gmail.com; 1975-11-01
 Hugo; hugo.bollon@gmail.com; 1999-12-31
 Hugo; hugo.hersemeule@etu.univ-smb.fr; 1994-05-04
-
+Martin; martin.folliet@etu.univ-savoie.fr; 1998-04-28
