@@ -10,3 +10,4 @@ Nicolas; nicolas.commandeur@etu.univ-smb.fr; 1999-10-14
 Rémi; remi.matrod@etu.univ-smb.fr; 2000-01-26
 Visar; visar.sylejmani@etu.univ-smb.fr; 2000-01-26
 Laurent; laurent.cutting@gmail.com; 1996-10-25
+Hamza; hamz.mah@hotmail.fr; 1999-02-14
