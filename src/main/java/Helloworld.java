@@ -1,5 +1,3 @@
-
-
 import javax.mail.Authenticator;
 import javax.mail.Session;
 import javax.mail.internet.*;
@@ -48,7 +46,7 @@ public class Helloworld {
         System.out.println(persons);
 
         //Date du jour
-        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("MM-dd");
         LocalDateTime now = LocalDateTime.now();
         String date = dtf.format(now).toString();
 
@@ -87,9 +85,15 @@ public class Helloworld {
         }
     }
 
-    public static void VerifIfSendEmail(ArrayList<Person> persons, String date){
+    public static void VerifIfSendEmail(ArrayList<Person> persons, String dateToday){
         for (int i = 0; i < persons.size(); i++) {
-            if (persons.get(i).getDate().trim().equals(date)) {
+
+
+            String date = persons.get(i).getDate();
+            String lines[] = date.split("-");
+            date = lines[1] + "-" + lines[2];
+
+            if (date.equals(dateToday)) {
                 sendEmail(persons.get(i));
             }
         }
