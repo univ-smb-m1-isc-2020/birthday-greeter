@@ -4,4 +4,4 @@ Hugo; hugo.bollon@gmail.com; 1999-12-31
 Hugo; hugo.hersemeule@etu.univ-smb.fr; 1994-05-04
 Nils; nils.ruet@etu.univ-smb.fr; 2000-02-27
 Nicolas; nicolas.commandeur@etu.univ-smb.fr; 1999-10-14
-
+Rémi; remi.matrod@etu.univ-smb.fr; 2000-01-26
