@@ -42,4 +42,17 @@ public class Person {
                 ", date='" + date + '\'' +
                 '}';
     }
+
+
+    public boolean isBirthday(String dateToday){
+        String date = this.getDate();
+        String lines[] = date.split("-");
+        date = lines[1] + "-" + lines[2];
+
+        if (date.equals(dateToday)) {
+            return true;
+        }
+
+        return false;
+    }
 }

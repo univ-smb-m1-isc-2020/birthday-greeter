@@ -88,12 +88,7 @@ public class Helloworld {
     public static void VerifIfSendEmail(ArrayList<Person> persons, String dateToday){
         for (int i = 0; i < persons.size(); i++) {
 
-
-            String date = persons.get(i).getDate();
-            String lines[] = date.split("-");
-            date = lines[1] + "-" + lines[2];
-
-            if (date.equals(dateToday)) {
+            if(persons.get(i).isBirthday(dateToday)){
                 sendEmail(persons.get(i));
             }
         }
