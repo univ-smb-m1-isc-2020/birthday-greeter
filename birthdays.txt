@@ -1,3 +1,4 @@
+Hamze; hamzaalrashed1@hotmail.com; 1996-02-14
 Mouha; mouhammad.nour@etu.univ-smb.fr; 1999-07-29
 Guillaume; guillaume.jambet@gmail.com; 1975-11-01
 Robin; robin.wagner@etu.univ-smb.fr; 1998-09-02
@@ -13,3 +14,4 @@ Rémi; remi.matrod@etu.univ-smb.fr; 2000-01-26
 Visar; visar.sylejmani@etu.univ-smb.fr; 2000-01-26
 Laurent; laurent.cutting@gmail.com; 1996-10-25
 Virgile; virgile.jacquet@etu.univ-smb.fr; 1999-09-11
+
