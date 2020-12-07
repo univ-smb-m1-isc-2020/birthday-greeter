@@ -3,19 +3,9 @@ import java.util.Date;
 
 public class BirthdayController {
 
-	
-	public BirthdayController() {
-		
-	}
-	
-	public void start(String fileName) {
-		//1 Récupération date du jour
-		Date d = new Date();
-		//Date d = new Date(1998,04,12);
-		
+	public void start(String fileName, Date d) {
 		Reader r = new Reader(fileName);
-		
-
+	
 		ArrayList<String> liste = r.ligneDuJour(d);
 		
 		//2 Envoie
@@ -31,7 +21,7 @@ public class BirthdayController {
 			//TODO gestion d'erreur (exemple mail invalide)
 		
 			//TEST
-			System.out.println("Nom : " + cNom);
+			System.out.println("-> " + cNom + ", " + cMail);
 			//Envoyer le mail
 		}
 	}

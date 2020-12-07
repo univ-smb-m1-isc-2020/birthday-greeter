@@ -42,7 +42,8 @@ public class Reader {
 					partsDate[0] = partsDate[0].replaceAll("\\s", "");
 					
 					Date cDate = new Date(Integer.parseInt(partsDate[0]), Integer.parseInt(partsDate[1]), Integer.parseInt(partsDate[2]));
-					if(date.getMonth() == cDate.getMinutes() && date.getDay() == cDate.getDay()) {
+
+					if(date.getMonth() == cDate.getMonth() && date.getDay() == cDate.getDay()) {
 						lLigneDuJour.add(currentLine);
 					}
 				}
