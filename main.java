@@ -39,10 +39,10 @@ public class emailSender
         }
     }
 
-    public static boolean dateCorrespond(int indexe, ArrayList<Personne> liste)
+    public static boolean dateCorrespond(Personne personne)
     {
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-        Date dateAnniv = sdf.parse(liste.get(indexe).getDateAnniv());
+        Date dateAnniv = sdf.parse(personne.getDateAnniv());
         Date ajd = LocalDateTime.now();
 
         if (ajd.compareTo(dateAnniv) == 0)
@@ -69,7 +69,7 @@ public class emailSender
         {
             for (int i = 0; i < listeEmail.size(); i++)
             {
-                if (dateCorrespond(i, listeEmail) )
+                if (dateCorrespond(listeEmail.get(i)) )
                 {
                     MimeMessage message = new MimeMessage(session);
                     message.setFrom(new InternetAddress(de));
