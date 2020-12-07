@@ -1,4 +1,5 @@
 Guillaume; guillaume.jambet@gmail.com; 1975-11-01
+Robin; robin.wagner@etu.univ-smb.fr; 1998-09-02
 Bertrand; bertrand.passieux@etu.univ-smb.fr; 1998-07-03
 Benjamin; benjamin.verdant@etu.univ-savoie.fr; 1999-06-27
 Hugo; hugo.bollon@gmail.com; 1999-12-31
