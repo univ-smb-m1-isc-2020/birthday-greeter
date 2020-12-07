@@ -2,6 +2,8 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class Main {
 
@@ -18,11 +20,19 @@ public class Main {
 
         String st;
 
+        //Date du jour
+        DateFormat format = new SimpleDateFormat("yyyy-MM-dd");
+        Date date = new Date();
+        System.out.println(format.format(date));
+
         while ((st = br.readLine()) != null){
             //System.out.println(st);
             String[] line = st.split(";",3);
             Personne p = new Personne(line[0], line[1], line[2]);
             System.out.println(p.toString());
+            //if (p.getDateNaissance() == (String) date){
+
+            //}
 
         }
 
