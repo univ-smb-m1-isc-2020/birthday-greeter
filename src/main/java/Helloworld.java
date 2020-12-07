@@ -52,7 +52,7 @@ public class Helloworld {
 
         System.out.println(date);
 
-        //Envoie des mails
+        //Envoie des mails  :: Faudrait Faire une tache tout les jours.
         VerifIfSendEmail(persons,date);
 
     }
